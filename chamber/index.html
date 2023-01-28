@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Quentin Naef" />
+    <meta
+      name="description"
+      content="WDD230 Week 4 Carlsbad Chamber Home page - Quentin Naef "
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="icon" href="images/sun.png" />
+    <title>Preston Town</title>
+  </head>
+  <body onload="change()">
+    <header>
+      <div class="head1">
+        <img
+          src="images/logo.jpeg"
+          alt=""
+          class="responsives"
+          width="150"
+          height="150"
+        />
+        <h1>Carlsbad Chamber</h1>
+        <div class="motto">
+          "The better way to build your <i> Business </i> "
+        </div>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li><a href="#" onclick="Menu()">&#9776;Menu</a></li>
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">News</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Weather</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 class="heading">Hero</h2>
+      <div class="contents">News</div>
+      <div class="contents">Events</div>
+      <div class="contents">Join</div>
+      <div class="contents">Spotlights</div>
+    </main>
+    <footer>
+      <div class="outer">
+        <p class="up">
+          &#169;<span id="Year"></span> Quentin Naef - 
+          <a href="https://www.byui.edu" target="_blank">
+            BYUI</a
+          >
+        </p>
+        <p class="date">Last Modified : <span id="LastUpdate"></span></p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
